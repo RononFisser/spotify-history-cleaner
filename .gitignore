@@ -1,0 +1,14 @@
+==================== .gitignore ====================
+# Ignore backup files created by the cleaner
+*.bak*
+*.bak.*
+*.bak.json
+*.bak.json.*
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore macOS system files
+.DS_Store
